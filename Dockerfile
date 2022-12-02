@@ -1,4 +1,4 @@
-FROM perftool/compile:ebpf AS build
+FROM shoothzj/compile:ebpf AS build
 
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh
 
